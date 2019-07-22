@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	ext_authz "github.com/envoyproxy/go-control-plane/envoy/service/auth/v2alpha"
+	ext_authz "github.com/envoyproxy/go-control-plane/envoy/service/auth/v2"
 	google_rpc "github.com/gogo/googleapis/google/rpc"
 	"github.com/golang/protobuf/jsonpb"
 	"google.golang.org/grpc"
